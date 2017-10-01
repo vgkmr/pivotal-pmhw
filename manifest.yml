@@ -1,6 +1,7 @@
 ---
 applications:
 - name: cf-spring
-  memory: 768M
-  instances: 1
+  memory: 750M
+  instances: 2
   random-route: true
+  disk_quota: 256M
